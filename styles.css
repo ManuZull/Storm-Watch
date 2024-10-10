@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff9f9;
+}
+
+h1 {
+    margin: auto;
+    padding: 0.5em;
+}
+
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #630091;
+    width: 100%;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+input:focus {
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid #ba02d3;
+}
+
+select {
+    width: 40%;
+    margin: 1em;
+}
+
+
+#searchButton {
+    background-color: #630091;
+    border-color: #630091;
+    color: white;
+    width: 30%;
+    margin: auto;
+}
+
+#searchButton:hover {
+    background-color: #ba02d3;
+    color: white;
+    border-color: #ba02d3;
+}
+
+h2 {
+    text-align: center;
+    height: 4em;
+    padding-top: 2em;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.temperature {
+    font-size: 2em;
+    text-align: center;
+}
+
+#divContainer {
+    width: 50%;
+    display: inline-block;
+}
+
+
+#detallesClima {
+    width: 49%;
+    display: inline-block;    
+}
+
+#container {
+    margin-bottom: 5em;
+}
